@@ -24,7 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Programmer born in 1977. Korea.
 baseurl: "/jekyllp" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+# twitter_username: ""
+facebook_username: evanleee
 github_username: leechanghaevan
 
 # Build settings
@@ -51,3 +52,7 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#개행 지원
+kramdown:
+  hard_wrap: true

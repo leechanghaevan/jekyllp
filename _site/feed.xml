@@ -1,31 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-24T23:30:31+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Upload blog to github using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Upload blog to github using Jekyll" /><published>2020-12-24T21:31:34+09:00</published><updated>2020-12-24T21:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;지킬 이라는 툴을 이용하여 블로그를 시작하였다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-25T02:31:24+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Git commands</title><link href="/jekyllp/tools/2020/12/25/git_commands.html" rel="alternate" type="text/html" title="Git commands" /><published>2020-12-25T00:56:08+09:00</published><updated>2020-12-25T00:56:08+09:00</updated><id>/jekyllp/tools/2020/12/25/git_commands</id><content type="html" xml:base="/jekyllp/tools/2020/12/25/git_commands.html">&lt;p&gt;빈 리포지토리 생성&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve decided to organize my development records using a tool called Jekyll.
+&lt;p&gt;복제 리포지토리 생성&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone URL&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;스테이징 (업데이트된 파일 모두 추가)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;스테이징 영역에 추가된 내역 조회&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git status&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;커밋&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit -m &quot;메세지&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;직전 커밋과 하나의 커밋으로 합침&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit --amend&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;원격 저장소 연결&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote add origin URL&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;푸시 (origin의 master 브랜치에)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;풀 (업데이트)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pull&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;깃 히스토리 보기 (종료는 q)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git log --oneline&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;롤백 (변경사항 취소)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git reset --hard&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;현재 브랜치 확인&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;새 브랜치 생성&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch branch2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;새 브랜치로 전환&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout branch2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;새 브랜치에 푸시&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
 It generates a static (blog like) website from md files.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;jekyll-docs&lt;/a&gt;
-&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;jekyll-gh&lt;/a&gt;
-&lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;jekyll-talk&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;This is the simple process.&lt;/p&gt;
+&lt;h4 id=&quot;this-is-the-simple-process&quot;&gt;This is the simple process.&lt;/h4&gt;
 
-&lt;p&gt;Install Ruby
+&lt;p&gt;Install Ruby&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Install Jekyll
+&lt;p&gt;Install Jekyll&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo gem install jekyll bundler&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Create Jekyll project
+&lt;p&gt;Create Jekyll project&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new PATH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd PATH&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Test on localhost
+&lt;p&gt;Test on localhost&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll s&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Build
+&lt;p&gt;Build&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll b&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll provides automatic regeneration when the source changes.
-But that function doesn’t work in my case. It seems like there are a lot of people like me.&lt;/p&gt;
+&lt;p&gt;Publish&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;[1.vscode]
-&lt;img src=&quot;/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">지킬 이라는 툴을 이용하여 블로그를 시작하였다.</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/upload_blog_to_github_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T14:19:25+09:00</published><updated>2020-12-24T14:19:25+09:00</updated><id>/jekyllp/tools/2020/12/24/upload_blog_to_github_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/upload_blog_to_github_using_jekyll.html"></content><author><name></name></author><category term="tools" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;Jekyll provides automatic regeneration when a source changes.&lt;br /&gt;
+But that function doesn’t work in my case. There are many people like me.&lt;/p&gt;
+
+&lt;p&gt;Links inside your blog should be this type. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp/img/2020-12-24-194035.png&lt;/code&gt;.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp&lt;/code&gt; is defined in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repository &amp;gt; settings &amp;gt; GitHub Pages&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once github setup is complete, you can find the public URL nearby.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;[1. links]&lt;br /&gt;
+&lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;jekyll-docs&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;jekyll-gh&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;jekyll-talk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[2. vscode]&lt;br /&gt;
+&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files.</summary></entry></feed>

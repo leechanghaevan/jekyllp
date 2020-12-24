@@ -1,18 +1,14 @@
 ---
 layout: post
-title: "Upload blog to github using Jekyll"
-date: 2020-12-24 21:31:34 +0900
+title: "Start a blog using Jekyll"
+date: 2020-12-24 15:31:34 +0900
 categories: tools
 ---
 
-지킬 이라는 툴을 이용하여 블로그를 시작하였다.
-
-I've decided to organize my development records using a tool called Jekyll.
+I've decided to write my development records using a tool called Jekyll.
 It generates a static (blog like) website from md files.
 
-[jekyll-docs](https://jekyllrb.com/docs/home)
-[jekyll-gh](https://github.com/jekyll/jekyll)
-[jekyll-talk](https://talk.jekyllrb.com/)
+---
 
 This is the simple process.
 
@@ -31,8 +27,26 @@ Test on localhost
 Build
 `jekyll build` or `jekyll b`
 
-Jekyll provides automatic regeneration when the source changes.
-But that function doesn't work in my case. It seems like there are a lot of people like me.
+Publish
+`git push origin master`
 
-[1.vscode]
-![screenshot]({{site.url}}/img/2020-12-24-194035.png)
+Jekyll provides automatic regeneration when a source changes.
+But that function doesn't work in my case. There are many people like me.
+
+Links inside your blog should be this type. `{{site.baseurl}}/img/2020-12-24-194035.png`.
+`{{site.baseurl}}` is defined in `_config.yml`
+
+Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup.
+`repository > settings > GitHub Pages`
+
+Once github setup is complete, you can find the public URL nearby.
+
+---
+
+[1. links]
+[jekyll-docs](https://jekyllrb.com/docs/home)
+[jekyll-gh](https://github.com/jekyll/jekyll)
+[jekyll-talk](https://talk.jekyllrb.com/)
+
+[2. vscode]
+![screenshot]({{site.baseurl}}/img/2020-12-24-194035.png)
