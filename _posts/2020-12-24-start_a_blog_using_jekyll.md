@@ -5,8 +5,6 @@ date: 2020-12-24 21:31:34 +0900
 categories: tools
 ---
 
-지킬 이라는 툴을 이용하여 블로그를 시작하였다.
-
 I've decided to organize my development records using a tool called Jekyll.
 It generates a static (blog like) website from md files.
 
