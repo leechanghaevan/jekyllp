@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-25T02:42:11+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Git commands</title><link href="/jekyllp/tools/2020/12/25/git_commands.html" rel="alternate" type="text/html" title="Git commands" /><published>2020-12-25T00:56:08+09:00</published><updated>2020-12-25T00:56:08+09:00</updated><id>/jekyllp/tools/2020/12/25/git_commands</id><content type="html" xml:base="/jekyllp/tools/2020/12/25/git_commands.html">&lt;p&gt;빈 리포지토리 생성&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-26T01:21:13+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Git commands</title><link href="/jekyllp/tools/2020/12/25/git_commands.html" rel="alternate" type="text/html" title="Git commands" /><published>2020-12-25T00:56:08+09:00</published><updated>2020-12-25T00:56:08+09:00</updated><id>/jekyllp/tools/2020/12/25/git_commands</id><content type="html" xml:base="/jekyllp/tools/2020/12/25/git_commands.html">&lt;p&gt;빈 리포지토리 생성&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;복제 리포지토리 생성&lt;br /&gt;
@@ -15,6 +15,9 @@
 
 &lt;p&gt;직전 커밋과 하나의 커밋으로 합침&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit --amend&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;브랜치를 main으로 바꿀경우 (기본은 master)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch -M main&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;원격 저장소 연결&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote add origin URL&lt;/code&gt;&lt;/p&gt;
@@ -44,7 +47,7 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout branch2&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;새 브랜치에 푸시&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init 복제 리포지토리 생성 git clone URL 스테이징 (업데이트된 파일 모두 추가) git add . 스테이징 영역에 추가된 내역 조회 git status 커밋 git commit -m &quot;메세지&quot; 직전 커밋과 하나의 커밋으로 합침 git commit --amend 브랜치를 main으로 바꿀경우 (기본은 master) git branch -M main 원격 저장소 연결 git remote add origin URL 푸시 (origin의 master 브랜치에) git push origin master 풀 (업데이트) git pull 깃 히스토리 보기 (종료는 q) git log --oneline 롤백 (커밋 취소) git reset --soft 롤백 (변경사항 삭제) git reset --hard 현재 브랜치 확인 git branch 새 브랜치 생성 git branch branch2 새 브랜치로 전환 git checkout branch2 새 브랜치에 푸시 git push origin branch2</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
 It generates a static (blog like) website from md files.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -70,15 +73,20 @@ It generates a static (blog like) website from md files.&lt;/p&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Jekyll provides automatic regeneration when a source changes.&lt;br /&gt;
-But that function doesn’t work in my case. There are many people like me.&lt;/p&gt;
+But that function doesn’t work in my case. There are a lot of people like me.&lt;/p&gt;
 
-&lt;p&gt;Links inside your blog should be this type. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp/img/2020-12-24-194035.png&lt;/code&gt;.&lt;br /&gt;
+&lt;p&gt;Links inside your blog should be this format. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp/img/2020-12-24-194035.png&lt;/code&gt;.&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp&lt;/code&gt; is defined in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup.&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repository &amp;gt; settings &amp;gt; GitHub Pages&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Once github setup is complete, you can find the public URL nearby.&lt;/p&gt;
+
+&lt;!-- ```python
+def hello():
+    print(&quot;world&quot;)
+``` --&gt;
 
 &lt;hr /&gt;
 
@@ -88,4 +96,4 @@ But that function doesn’t work in my case. There are many people like me.&lt;/
 &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;jekyll-talk&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;[2. vscode]&lt;br /&gt;
-&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files. This is the simple process. Install Ruby sudo apt-get install ruby-full build-essential zlib1g-dev Install Jekyll sudo gem install jekyll bundler Create Jekyll project jekyll new PATH and cd PATH Test on localhost jekyll serve or jekyll s Build jekyll build or jekyll b Publish git push origin master Jekyll provides automatic regeneration when a source changes. But that function doesn’t work in my case. There are many people like me. Links inside your blog should be this type. /jekyllp/img/2020-12-24-194035.png. /jekyllp is defined in _config.yml Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup. repository &amp;gt; settings &amp;gt; GitHub Pages Once github setup is complete, you can find the public URL nearby. [1. links] jekyll-docs jekyll-gh jekyll-talk [2. vscode]</summary></entry></feed>
+&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files. This is the simple process. Install Ruby sudo apt-get install ruby-full build-essential zlib1g-dev Install Jekyll sudo gem install jekyll bundler Create Jekyll project jekyll new PATH and cd PATH Test on localhost jekyll serve or jekyll s Build jekyll build or jekyll b Publish git push origin master Jekyll provides automatic regeneration when a source changes. But that function doesn’t work in my case. There are a lot of people like me. Links inside your blog should be this format. /jekyllp/img/2020-12-24-194035.png. /jekyllp is defined in _config.yml Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup. repository &amp;gt; settings &amp;gt; GitHub Pages Once github setup is complete, you can find the public URL nearby. [1. links] jekyll-docs jekyll-gh jekyll-talk [2. vscode]</summary></entry></feed>

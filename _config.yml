@@ -53,6 +53,9 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#개행 지원
 kramdown:
-  hard_wrap: true
+  hard_wrap: true # 개행 => <br> 지원
+  # highlighter: rouge
+  # syntax_highlighter_opts:
+  #   block:
+  #     line_numbers: true

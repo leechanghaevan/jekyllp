@@ -31,15 +31,20 @@ Publish
 `git push origin master`
 
 Jekyll provides automatic regeneration when a source changes.
-But that function doesn't work in my case. There are many people like me.
+But that function doesn't work in my case. There are a lot of people like me.
 
-Links inside your blog should be this type. `{{site.baseurl}}/img/2020-12-24-194035.png`.
+Links inside your blog should be this format. `{{site.baseurl}}/img/2020-12-24-194035.png`.
 `{{site.baseurl}}` is defined in `_config.yml`
 
 Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup.
 `repository > settings > GitHub Pages`
 
 Once github setup is complete, you can find the public URL nearby.
+
+<!-- ```python
+def hello():
+    print("world")
+``` -->
 
 ---
 

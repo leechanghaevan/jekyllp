@@ -23,6 +23,9 @@ categories: tools
 직전 커밋과 하나의 커밋으로 합침
 `git commit --amend`
 
+브랜치를 main으로 바꿀경우 (기본은 master)
+`git branch -M main`
+
 원격 저장소 연결
 `git remote add origin URL`
 
