@@ -27,7 +27,16 @@ categories: tools
 `git branch -M main`
 
 원격 저장소 연결
-`git remote add origin URL`
+`git remote add origin https://github.com/leechanghaevan/jekyllp`
+
+현재 유저 이름 조회/변경
+`git config user.name`
+`git config user.email`
+`git config --global user.name "myname"`
+`git config --global user.email castepo@gmail.com`
+
+사용하지 않는 깃허브 계정 지우기
+`제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제`
 
 푸시 (origin의 master 브랜치에)
 `git push origin master`
