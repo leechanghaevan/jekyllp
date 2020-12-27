@@ -1,4 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-26T01:21:13+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Git commands</title><link href="/jekyllp/tools/2020/12/25/git_commands.html" rel="alternate" type="text/html" title="Git commands" /><published>2020-12-25T00:56:08+09:00</published><updated>2020-12-25T00:56:08+09:00</updated><id>/jekyllp/tools/2020/12/25/git_commands</id><content type="html" xml:base="/jekyllp/tools/2020/12/25/git_commands.html">&lt;p&gt;빈 리포지토리 생성&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T15:47:07+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;아나콘다 사이트에서 설치파일 다운로드&lt;sup id=&quot;fnref:download&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:download&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;또는 파워셀을 관리자 권한으로 실행 후 아래 실행&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install anaconda3&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;설치할 때 반드시 &lt;strong&gt;환경변수 등록&lt;/strong&gt;을 체크해 준다.&lt;sup id=&quot;fnref:venv&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:venv&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;파이썬-가상-환경-생성-기본-가상환경-이름은-base&quot;&gt;파이썬 가상 환경 생성 (기본 가상환경 이름은 base)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Anaconda Powershell 을 연다&lt;/li&gt;
+  &lt;li&gt;아나콘다 업데이트&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda update conda&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;가상환경 목록 조회&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda env list&lt;/code&gt;&lt;br /&gt;
+가상환경 생성&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda create -n [MY_ENV]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;현재 가상환경 활성화&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda activate [MY_ENV]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;현재 가상환경 비활성화&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda deactivate [MY_ENV]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;클라우드형-환경&quot;&gt;클라우드형 환경&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Datalore, Colab 등을 사용하면 설치 없이 온라인으로 파이썬(+주피터노트)을 이용할 수 있다.&lt;sup id=&quot;fnref:datalore&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:datalore&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:colab&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:colab&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;참고&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:download&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.anaconda.com/anaconda/install/&quot;&gt;Anaconda Download&lt;/a&gt; &lt;a href=&quot;#fnref:download&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:venv&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;환경변수 등록해 주지 않으면 Anaconda Powershell에서만 파이썬이 작동한다. &lt;a href=&quot;#fnref:venv&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:datalore&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.anaconda.com/datalore_navigator&quot;&gt;Datalore&lt;/a&gt; &lt;a href=&quot;#fnref:datalore&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:colab&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/notebooks/intro.ipynb&quot;&gt;Colab&lt;/a&gt; &lt;a href=&quot;#fnref:colab&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="tools" /><summary type="html">윈도우에 아나콘다 (파이썬 + 라이브러리) 설치</summary></entry><entry><title type="html">MkDocs</title><link href="/jekyllp/tools/2020/12/27/mkdocs.html" rel="alternate" type="text/html" title="MkDocs" /><published>2020-12-27T23:08:38+09:00</published><updated>2020-12-27T23:08:38+09:00</updated><id>/jekyllp/tools/2020/12/27/mkdocs</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/mkdocs.html">&lt;p&gt;MkDocs는 마크다운으로 정적사이트를 생성하는 툴이다.&lt;/p&gt;
+
+&lt;p&gt;설치 과정 &lt;sup id=&quot;fnref:wikidocs&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:wikidocs&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install mkdocs&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install pymdown-extensions&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install mkdocs-material&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install mkdocs-rtd-dropdown&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트 생성&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdocs new myProject&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd myProject&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;테스트&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdocs serve&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;빌드&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdocs build&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;확인&lt;br /&gt;
+&lt;a href=&quot;http://localhost:4000/&quot;&gt;http://localhost:4000/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;참고&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:wikidocs&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://wikidocs.net/20039&quot;&gt;공학자를 위한 python&lt;/a&gt; &lt;a href=&quot;#fnref:wikidocs&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="tools" /><summary type="html">MkDocs는 마크다운으로 정적사이트를 생성하는 툴이다.</summary></entry><entry><title type="html">Docker via WSL</title><link href="/jekyllp/tools/2020/12/27/docker_via_wsl.html" rel="alternate" type="text/html" title="Docker via WSL" /><published>2020-12-27T17:13:19+09:00</published><updated>2020-12-27T17:13:19+09:00</updated><id>/jekyllp/tools/2020/12/27/docker_via_wsl</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/docker_via_wsl.html">&lt;h4 id=&quot;도커와-wsl을-동시에-설치하는법&quot;&gt;도커와 WSL을 동시에 설치하는법&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;도커는 리눅스 기반이므로 윈도에선 WSL이 필수이다.&lt;/li&gt;
+  &lt;li&gt;vscode에서 마이크로소프트 도커 플러그인 검색 &amp;amp; 설치&lt;/li&gt;
+  &lt;li&gt;Docker Desktop 설치하라고 뜸&lt;/li&gt;
+  &lt;li&gt;설치 후 리붓&lt;/li&gt;
+  &lt;li&gt;WSL2 커널을 업데이트 하라고 뜸 https://aka.ms/wsl2kernel 로 연결됨&lt;/li&gt;
+  &lt;li&gt;연결된 사이트에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x64 머신용 최신 WSL2 Linux 커널 업데이트 패키지&lt;/code&gt; 다운로드 후 설치&lt;/li&gt;
+  &lt;li&gt;설치후 Docker Desktop Restart&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;wsl에-우분투-설치&quot;&gt;WSL에 우분투 설치&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WSL을 기본으로 설치하면 빈 리눅스 커널만 존재한다. 우분투를 설치해 보자.&lt;/li&gt;
+  &lt;li&gt;Window store에 가서 ubuntu를 설치&lt;/li&gt;
+  &lt;li&gt;기본 wsl distro 로 ubuntu 지정&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wsl --setdefault ubuntu&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;명령창에서 wsl 실행 (종료는 exit)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wsl&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;docker-desktop-실행시-튜토리얼&quot;&gt;Docker Desktop 실행시 튜토리얼&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;깃헙에서 샘플 이미지 다운로드&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker run --name repo aline/git clone https://github.com/docker/getting-started.git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;다운받은 파일들을 getting-started 폴더로 복사&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker cp repo:/git/getting-started/ .&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;이동&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd getting-started&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;현재폴더를 이미지로 빌드&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker build -t docker101tutorial .&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;내 도커 이미지를 컨테이너로 실행 (한번 실행해 두면 도커 대시보드에 등록된다)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd docker run -d -p 80:80 --name docker-tutorial docker101tutorial&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;브라우저에서 확인&lt;br /&gt;
+&lt;a href=&quot;http://127.0.0.1/&quot;&gt;http://127.0.0.1/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">도커와 WSL을 동시에 설치하는법</summary></entry><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys-copy.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys%20copy</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys-copy.html">&lt;p&gt;단축키 모음&lt;/p&gt;
+
+&lt;p&gt;웹 브라우저&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주소창 바로가기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+L&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;VSCODE&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
+
+&lt;h5 id=&quot;설치&quot;&gt;설치&lt;/h5&gt;
+
+&lt;p&gt;관리자 권한으로 파워셀 실행 후 아래 명령어 실행&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set-ExecutionPolicy Bypass &lt;span class=&quot;nt&quot;&gt;-Scope&lt;/span&gt; Process &lt;span class=&quot;nt&quot;&gt;-Force&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; iex &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt;New-Object System.Net.WebClient&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.DownloadString&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'https://chocolatey.org/install.ps1'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;추천-프로그램-목록&quot;&gt;추천 프로그램 목록&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install git -y&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install nodejs -y&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install yarn -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;패키지-삭제&quot;&gt;패키지 삭제&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco uninstall 패키지이름 -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;최신-버전으로-업데이트&quot;&gt;최신 버전으로 업데이트&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco upgrade 패키지이름 -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;설치된-목록-확인&quot;&gt;설치된 목록 확인&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco list --localonly&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;jekyll-설치&quot;&gt;Jekyll 설치&lt;/h5&gt;
+
+&lt;p&gt;루비 설치&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;파워셀을 따로 열고&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;지킬 블로그 생성&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new PATH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;지킬 실행&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll s&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;지킬 빌드&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll b&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;실행 에러시 아래 명령어 수행 후 시도&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Choco는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할</summary></entry><entry><title type="html">Git commands</title><link href="/jekyllp/tools/2020/12/25/git_commands.html" rel="alternate" type="text/html" title="Git commands" /><published>2020-12-25T00:56:08+09:00</published><updated>2020-12-25T00:56:08+09:00</updated><id>/jekyllp/tools/2020/12/25/git_commands</id><content type="html" xml:base="/jekyllp/tools/2020/12/25/git_commands.html">&lt;p&gt;빈 리포지토리 생성&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;복제 리포지토리 생성&lt;br /&gt;
@@ -19,8 +200,20 @@
 &lt;p&gt;브랜치를 main으로 바꿀경우 (기본은 master)&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch -M main&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;원격 저장소 연결&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote add origin URL&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;원격 저장소 주소 확인 (현재 연결된)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote -v&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;새 원격 저장소 연결&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote add origin https://github.com/leechanghaevan/jekyllp&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;현재 유저 이름 조회/변경&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config user.name&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config user.email&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global user.name &quot;myname&quot;&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global user.email castepo@gmail.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;사용하지 않는 깃허브 계정 지우기&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;푸시 (origin의 master 브랜치에)&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
@@ -47,14 +240,14 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout branch2&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;새 브랜치에 푸시&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init 복제 리포지토리 생성 git clone URL 스테이징 (업데이트된 파일 모두 추가) git add . 스테이징 영역에 추가된 내역 조회 git status 커밋 git commit -m &quot;메세지&quot; 직전 커밋과 하나의 커밋으로 합침 git commit --amend 브랜치를 main으로 바꿀경우 (기본은 master) git branch -M main 원격 저장소 연결 git remote add origin URL 푸시 (origin의 master 브랜치에) git push origin master 풀 (업데이트) git pull 깃 히스토리 보기 (종료는 q) git log --oneline 롤백 (커밋 취소) git reset --soft 롤백 (변경사항 삭제) git reset --hard 현재 브랜치 확인 git branch 새 브랜치 생성 git branch branch2 새 브랜치로 전환 git checkout branch2 새 브랜치에 푸시 git push origin branch2</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
 It generates a static (blog like) website from md files.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;This is the simple process.&lt;/p&gt;
 
-&lt;p&gt;Install Ruby&lt;br /&gt;
+&lt;p&gt;Install Ruby (Linux)&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Install Jekyll&lt;br /&gt;
@@ -72,8 +265,7 @@ It generates a static (blog like) website from md files.&lt;/p&gt;
 &lt;p&gt;Publish&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll provides automatic regeneration when a source changes.&lt;br /&gt;
-But that function doesn’t work in my case. There are a lot of people like me.&lt;/p&gt;
+&lt;p&gt;Jekyll provides automatic regeneration when a source changes.&lt;/p&gt;
 
 &lt;p&gt;Links inside your blog should be this format. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp/img/2020-12-24-194035.png&lt;/code&gt;.&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp&lt;/code&gt; is defined in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
@@ -83,10 +275,9 @@ But that function doesn’t work in my case. There are a lot of people like me.&
 
 &lt;p&gt;Once github setup is complete, you can find the public URL nearby.&lt;/p&gt;
 
-&lt;!-- ```python
-def hello():
-    print(&quot;world&quot;)
-``` --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;WSL 리눅스에 설치했을때는 auto regenerating이 안되었었는데 윈도용으로 설치하니 잘 된다.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;깃헙 페이지에선 여전히 지킬을 기본으로 지원하지만, 정적 블로그의 최근 대세는 Gatsby로 넘어간 것 같다.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -96,4 +287,42 @@ def hello():
 &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;jekyll-talk&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;[2. vscode]&lt;br /&gt;
-&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files. This is the simple process. Install Ruby sudo apt-get install ruby-full build-essential zlib1g-dev Install Jekyll sudo gem install jekyll bundler Create Jekyll project jekyll new PATH and cd PATH Test on localhost jekyll serve or jekyll s Build jekyll build or jekyll b Publish git push origin master Jekyll provides automatic regeneration when a source changes. But that function doesn’t work in my case. There are a lot of people like me. Links inside your blog should be this format. /jekyllp/img/2020-12-24-194035.png. /jekyllp is defined in _config.yml Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup. repository &amp;gt; settings &amp;gt; GitHub Pages Once github setup is complete, you can find the public URL nearby. [1. links] jekyll-docs jekyll-gh jekyll-talk [2. vscode]</summary></entry></feed>
+&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files.</summary></entry><entry><title type="html">Why Python</title><link href="/jekyllp/tools/2020/12/24/why_python.html" rel="alternate" type="text/html" title="Why Python" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/why_python</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/why_python.html">&lt;p&gt;왜 파이썬 사용하나?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문법이 쉽다.&lt;/li&gt;
+  &lt;li&gt;컴파일이 필요 없이 바로 실행된다&lt;/li&gt;
+  &lt;li&gt;코딩 습관이 문법의 일부이기 때문에 코딩 스타일이 통일되어 있다. 그래서 공동 개발하기 좋다.&lt;/li&gt;
+  &lt;li&gt;자료구조나 데이터 다루는 기능을 많이 제공한다.&lt;/li&gt;
+  &lt;li&gt;딥러닝 라이브러리를 지원한다. (파이토치, 텐서플로. 파이토치가 대세)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;활용분야&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;머신러닝&lt;/li&gt;
+  &lt;li&gt;데이터분석&lt;/li&gt;
+  &lt;li&gt;업무자동화&lt;/li&gt;
+  &lt;li&gt;아두이노 제어&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;파이썬 개발 환경&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;설치형: ”PyCharm” 커뮤니티 버전 무료 다운로드&lt;/li&gt;
+  &lt;li&gt;설치형: ”주피터노트”. 데이터 분석 통합 패키지인 아나콘다 설치하면 자동 설치됨&lt;/li&gt;
+  &lt;li&gt;비설치형: ”리플릿” (https://repl.it/languages/python3)&lt;/li&gt;
+  &lt;li&gt;비설치형: ”코랩” (https://colab.research.google.com/) (구글에서 무료 제공해주는 클라우드형 주피터노트)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;간단한 실습&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;브라우저로 코랩(https://colab.research.google.com/) 접속&lt;/li&gt;
+  &lt;li&gt;새 노트 생성&lt;/li&gt;
+  &lt;li&gt;+코드 버튼 눌러서 코드 편집창 생성&lt;/li&gt;
+  &lt;li&gt;코드 작성&lt;br /&gt;
+txt=”hello world”&lt;br /&gt;
+print(“hello world)&lt;/li&gt;
+  &lt;li&gt;코드 실행: 버튼 누르기 또는 단축키 Ctrl+Enter&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">왜 파이썬 사용하나?</summary></entry></feed>
