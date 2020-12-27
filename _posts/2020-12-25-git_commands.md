@@ -26,7 +26,10 @@ categories: tools
 브랜치를 main으로 바꿀경우 (기본은 master)
 `git branch -M main`
 
-원격 저장소 연결
+원격 저장소 주소 확인 (현재 연결된)
+`git remote -v`
+
+새 원격 저장소 연결
 `git remote add origin https://github.com/leechanghaevan/jekyllp`
 
 현재 유저 이름 조회/변경
