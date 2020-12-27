@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-26T01:21:13+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Git commands</title><link href="/jekyllp/tools/2020/12/25/git_commands.html" rel="alternate" type="text/html" title="Git commands" /><published>2020-12-25T00:56:08+09:00</published><updated>2020-12-25T00:56:08+09:00</updated><id>/jekyllp/tools/2020/12/25/git_commands</id><content type="html" xml:base="/jekyllp/tools/2020/12/25/git_commands.html">&lt;p&gt;빈 리포지토리 생성&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-27T16:38:29+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys.html">&lt;p&gt;단축키 모음&lt;/p&gt;
+
+&lt;h4 id=&quot;웹-브라우저&quot;&gt;웹 브라우저&lt;/h4&gt;
+
+&lt;p&gt;주소창 바로가기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+L&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;vscode&quot;&gt;VSCODE&lt;/h4&gt;
+
+&lt;p&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;br /&gt;
+md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager-copy.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager%20copy</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager-copy.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
+
+&lt;h5 id=&quot;설치&quot;&gt;설치&lt;/h5&gt;
+
+&lt;p&gt;관리자 권한으로 파워셀 실행 후 아래 명령어 실행&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set-ExecutionPolicy Bypass &lt;span class=&quot;nt&quot;&gt;-Scope&lt;/span&gt; Process &lt;span class=&quot;nt&quot;&gt;-Force&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; iex &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt;New-Object System.Net.WebClient&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.DownloadString&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'https://chocolatey.org/install.ps1'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;추천-프로그램-목록&quot;&gt;추천 프로그램 목록&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install git -y&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install nodejs -y&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install yarn -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;패키지-삭제&quot;&gt;패키지 삭제&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco uninstall 패키지이름 -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;최신-버전으로-업데이트&quot;&gt;최신 버전으로 업데이트&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco upgrade 패키지이름 -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;설치된-목록-확인&quot;&gt;설치된 목록 확인&lt;/h5&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco list --localonly&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;jekyll-설치&quot;&gt;Jekyll 설치&lt;/h5&gt;
+
+&lt;p&gt;루비 설치&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;파워셀을 따로 열고&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;지킬 블로그 생성&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new PATH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;지킬 실행&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll s&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;지킬 빌드&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll b&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;실행 에러시 아래 명령어 수행 후 시도&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Choco는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할</summary></entry><entry><title type="html">Git commands</title><link href="/jekyllp/tools/2020/12/25/git_commands.html" rel="alternate" type="text/html" title="Git commands" /><published>2020-12-25T00:56:08+09:00</published><updated>2020-12-25T00:56:08+09:00</updated><id>/jekyllp/tools/2020/12/25/git_commands</id><content type="html" xml:base="/jekyllp/tools/2020/12/25/git_commands.html">&lt;p&gt;빈 리포지토리 생성&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;복제 리포지토리 생성&lt;br /&gt;
@@ -19,8 +76,20 @@
 &lt;p&gt;브랜치를 main으로 바꿀경우 (기본은 master)&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch -M main&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;원격 저장소 연결&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote add origin URL&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;원격 저장소 주소 확인 (현재 연결된)&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote -v&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;새 원격 저장소 연결&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote add origin https://github.com/leechanghaevan/jekyllp&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;현재 유저 이름 조회/변경&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config user.name&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config user.email&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global user.name &quot;myname&quot;&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global user.email castepo@gmail.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;사용하지 않는 깃허브 계정 지우기&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;푸시 (origin의 master 브랜치에)&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
@@ -47,14 +116,14 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout branch2&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;새 브랜치에 푸시&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init 복제 리포지토리 생성 git clone URL 스테이징 (업데이트된 파일 모두 추가) git add . 스테이징 영역에 추가된 내역 조회 git status 커밋 git commit -m &quot;메세지&quot; 직전 커밋과 하나의 커밋으로 합침 git commit --amend 브랜치를 main으로 바꿀경우 (기본은 master) git branch -M main 원격 저장소 연결 git remote add origin URL 푸시 (origin의 master 브랜치에) git push origin master 풀 (업데이트) git pull 깃 히스토리 보기 (종료는 q) git log --oneline 롤백 (커밋 취소) git reset --soft 롤백 (변경사항 삭제) git reset --hard 현재 브랜치 확인 git branch 새 브랜치 생성 git branch branch2 새 브랜치로 전환 git checkout branch2 새 브랜치에 푸시 git push origin branch2</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
 It generates a static (blog like) website from md files.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;This is the simple process.&lt;/p&gt;
 
-&lt;p&gt;Install Ruby&lt;br /&gt;
+&lt;p&gt;Install Ruby (Linux)&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Install Jekyll&lt;br /&gt;
@@ -72,8 +141,7 @@ It generates a static (blog like) website from md files.&lt;/p&gt;
 &lt;p&gt;Publish&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll provides automatic regeneration when a source changes.&lt;br /&gt;
-But that function doesn’t work in my case. There are a lot of people like me.&lt;/p&gt;
+&lt;p&gt;Jekyll provides automatic regeneration when a source changes.&lt;/p&gt;
 
 &lt;p&gt;Links inside your blog should be this format. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp/img/2020-12-24-194035.png&lt;/code&gt;.&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/jekyllp&lt;/code&gt; is defined in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
@@ -83,10 +151,9 @@ But that function doesn’t work in my case. There are a lot of people like me.&
 
 &lt;p&gt;Once github setup is complete, you can find the public URL nearby.&lt;/p&gt;
 
-&lt;!-- ```python
-def hello():
-    print(&quot;world&quot;)
-``` --&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;WSL 리눅스에 설치했을때는 auto regenerating이 안되었었는데 윈도용으로 설치하니 잘 된다.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;깃헙 페이지에선 여전히 지킬을 기본으로 지원하지만, 정적 블로그의 최근 대세는 Gatsby로 넘어간 것 같다.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -96,4 +163,42 @@ def hello():
 &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;jekyll-talk&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;[2. vscode]&lt;br /&gt;
-&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files. This is the simple process. Install Ruby sudo apt-get install ruby-full build-essential zlib1g-dev Install Jekyll sudo gem install jekyll bundler Create Jekyll project jekyll new PATH and cd PATH Test on localhost jekyll serve or jekyll s Build jekyll build or jekyll b Publish git push origin master Jekyll provides automatic regeneration when a source changes. But that function doesn’t work in my case. There are a lot of people like me. Links inside your blog should be this format. /jekyllp/img/2020-12-24-194035.png. /jekyllp is defined in _config.yml Anyone can use Github as a free hosting server for their static website, called Github page, just with a little setup. repository &amp;gt; settings &amp;gt; GitHub Pages Once github setup is complete, you can find the public URL nearby. [1. links] jekyll-docs jekyll-gh jekyll-talk [2. vscode]</summary></entry></feed>
+&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files.</summary></entry><entry><title type="html">Why Python</title><link href="/jekyllp/tools/2020/12/24/why_python.html" rel="alternate" type="text/html" title="Why Python" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/why_python</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/why_python.html">&lt;p&gt;왜 파이썬 사용하나?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문법이 쉽다.&lt;/li&gt;
+  &lt;li&gt;컴파일이 필요 없이 바로 실행된다&lt;/li&gt;
+  &lt;li&gt;코딩 습관이 문법의 일부이기 때문에 코딩 스타일이 통일되어 있다. 그래서 공동 개발하기 좋다.&lt;/li&gt;
+  &lt;li&gt;자료구조나 데이터 다루는 기능을 많이 제공한다.&lt;/li&gt;
+  &lt;li&gt;딥러닝 라이브러리를 지원한다. (파이토치, 텐서플로. 파이토치가 대세)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;활용분야&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;머신러닝&lt;/li&gt;
+  &lt;li&gt;데이터분석&lt;/li&gt;
+  &lt;li&gt;업무자동화&lt;/li&gt;
+  &lt;li&gt;아두이노 제어&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;파이썬 개발 환경&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;설치형: ”PyCharm” 커뮤니티 버전 무료 다운로드&lt;/li&gt;
+  &lt;li&gt;설치형: ”주피터노트”. 데이터 분석 통합 패키지인 아나콘다 설치하면 자동 설치됨&lt;/li&gt;
+  &lt;li&gt;비설치형: ”리플릿” (https://repl.it/languages/python3)&lt;/li&gt;
+  &lt;li&gt;비설치형: ”코랩” (https://colab.research.google.com/) (구글에서 무료 제공해주는 클라우드형 주피터노트)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;간단한 실습&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;브라우저로 코랩(https://colab.research.google.com/) 접속&lt;/li&gt;
+  &lt;li&gt;새 노트 생성&lt;/li&gt;
+  &lt;li&gt;+코드 버튼 눌러서 코드 편집창 생성&lt;/li&gt;
+  &lt;li&gt;코드 작성&lt;br /&gt;
+txt=”hello world”&lt;br /&gt;
+print(“hello world)&lt;/li&gt;
+  &lt;li&gt;코드 실행: 버튼 누르기 또는 단축키 Ctrl+Enter&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">왜 파이썬 사용하나?</summary></entry></feed>

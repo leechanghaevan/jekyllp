@@ -12,7 +12,7 @@ It generates a static (blog like) website from md files.
 
 This is the simple process.
 
-Install Ruby
+Install Ruby (Linux)
 `sudo apt-get install ruby-full build-essential zlib1g-dev`
 
 Install Jekyll
@@ -31,7 +31,6 @@ Publish
 `git push origin master`
 
 Jekyll provides automatic regeneration when a source changes.
-But that function doesn't work in my case. There are a lot of people like me.
 
 Links inside your blog should be this format. `{{site.baseurl}}/img/2020-12-24-194035.png`.
 `{{site.baseurl}}` is defined in `_config.yml`
@@ -41,10 +40,9 @@ Anyone can use Github as a free hosting server for their static website, called 
 
 Once github setup is complete, you can find the public URL nearby.
 
-<!-- ```python
-def hello():
-    print("world")
-``` -->
+_**WSL 리눅스에 설치했을때는 auto regenerating이 안되었었는데 윈도용으로 설치하니 잘 된다.**_
+
+_**깃헙 페이지에선 여전히 지킬을 기본으로 지원하지만, 정적 블로그의 최근 대세는 Gatsby로 넘어간 것 같다.**_
 
 ---
 
