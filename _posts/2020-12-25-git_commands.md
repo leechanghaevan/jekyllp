@@ -67,3 +67,6 @@ categories: tools
 
 새 브랜치에 푸시
 `git push origin branch2`
+
+vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우
+`git config --global credential.helper wincred`

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T17:03:42+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T17:16:22+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;아나콘다 사이트에서 설치파일 다운로드&lt;sup id=&quot;fnref:download&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:download&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -118,7 +118,7 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd docker run -d -p 80:80 --name docker-tutorial docker101tutorial&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;브라우저에서 확인&lt;br /&gt;
 &lt;a href=&quot;http://127.0.0.1/&quot;&gt;http://127.0.0.1/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">도커와 WSL을 동시에 설치하는법</summary></entry><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys-copy.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys%20copy</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys-copy.html">&lt;p&gt;단축키 모음&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">도커와 WSL을 동시에 설치하는법</summary></entry><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys.html">&lt;p&gt;단축키 모음&lt;/p&gt;
 
 &lt;p&gt;웹 브라우저&lt;/p&gt;
 
@@ -131,64 +131,7 @@
 &lt;ul&gt;
   &lt;li&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys.html">&lt;p&gt;단축키 모음&lt;/p&gt;
-
-&lt;h4 id=&quot;웹-브라우저&quot;&gt;웹 브라우저&lt;/h4&gt;
-
-&lt;p&gt;주소창 바로가기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+L&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;vscode&quot;&gt;VSCODE&lt;/h4&gt;
-
-&lt;p&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;br /&gt;
-md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
-
-&lt;h5 id=&quot;설치&quot;&gt;설치&lt;/h5&gt;
-
-&lt;p&gt;관리자 권한으로 파워셀 실행 후 아래 명령어 실행&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set-ExecutionPolicy Bypass &lt;span class=&quot;nt&quot;&gt;-Scope&lt;/span&gt; Process &lt;span class=&quot;nt&quot;&gt;-Force&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; iex &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt;New-Object System.Net.WebClient&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.DownloadString&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'https://chocolatey.org/install.ps1'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h5 id=&quot;추천-프로그램-목록&quot;&gt;추천 프로그램 목록&lt;/h5&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install git -y&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install nodejs -y&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install yarn -y&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;패키지-삭제&quot;&gt;패키지 삭제&lt;/h5&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco uninstall 패키지이름 -y&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;최신-버전으로-업데이트&quot;&gt;최신 버전으로 업데이트&lt;/h5&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco upgrade 패키지이름 -y&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;설치된-목록-확인&quot;&gt;설치된 목록 확인&lt;/h5&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco list --localonly&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h5 id=&quot;jekyll-설치&quot;&gt;Jekyll 설치&lt;/h5&gt;
-
-&lt;p&gt;루비 설치&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;파워셀을 따로 열고&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;지킬 블로그 생성&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new PATH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd PATH&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;지킬 실행&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll s&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;지킬 빌드&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll b&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;실행 에러시 아래 명령어 수행 후 시도&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Choco는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager-copy.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager%20copy</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager-copy.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
 
 &lt;h5 id=&quot;설치&quot;&gt;설치&lt;/h5&gt;
 
@@ -297,7 +240,10 @@ md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;languag
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout branch2&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;새 브랜치에 푸시&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push origin branch2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global credential.helper wincred&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">빈 리포지토리 생성 git init</summary></entry><entry><title type="html">Start a blog using Jekyll</title><link href="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html" rel="alternate" type="text/html" title="Start a blog using Jekyll" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/start_a_blog_using_jekyll.html">&lt;p&gt;I’ve decided to write my development records using a tool called Jekyll.&lt;br /&gt;
 It generates a static (blog like) website from md files.&lt;/p&gt;
 
 &lt;hr /&gt;
