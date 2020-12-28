@@ -65,7 +65,7 @@ categories: tools
 롤백 (커밋 취소)
 `git reset --soft`
 
-롤백 (변경 사항 삭제)
+롤백 (변경사항 삭제)
 `git reset --hard`
 
 현재 브랜치 확인
@@ -85,7 +85,8 @@ Windows: `git update-git-for-windows`
 Linux/Unix: `git update`
 
 vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우
-`git config --global credential.helper wincred --global`
+Window: `git config --global credential.helper wincred --global`
+Linux: `git config --global credential.helper store --global`
 
 ---
 
