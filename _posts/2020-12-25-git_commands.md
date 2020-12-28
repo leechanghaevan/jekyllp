@@ -5,32 +5,31 @@ date: 2020-12-25 00:56:08 +0900
 categories: tools
 ---
 
-빈 리포지토리 생성 [^git-guide][^git-tutorial]
+**빈 리포지토리 생성** [^git-guide][^git-tutorial]
 `git init`
 
-복제 리포지토리 생성
+**복제 리포지토리 생성**
 `git clone URL`
 
-스테이징 (업데이트된 파일 모두 추가)
+**스테이징 (업데이트된 파일 모두 추가)**
 `git add .`
 
 스테이징 영역에 추가된 내역 조회
 `git status`
 
-커밋
-`git commit -m "메세지"`
+**커밋** (vscode에서는 commit 버튼을 누르면 `git add .` 가 먼저 실행된다.)
+`git commit -m "설명"`
 
-직전 커밋과 하나의 커밋으로 합침
-`git commit --amend`
+직전 커밋과 하나의 커밋으로 합침, 또는 직전 커밋의 설명만 수정
+`git commit --amend -m "새설명"`
 
-직전 커밋 메세지만 수정
-`git commit --amend -m "메세지"`
+> 이미 push 된 상태를 amend 할 경우 pull 해서 머지하고 다시 push해야 하므로 주의하자
 
 브랜치를 main으로 바꿀경우 (기본은 master)
 `git branch -M main`
 
 브랜치 생성 및 갈아타기
-`git checkout -b [MY_BRNACH]`
+`git checkout -b [새브랜치]`
 
 브랜치 변경 (마스터로 돌아오기)
 `git branch master`
@@ -38,7 +37,7 @@ categories: tools
 원격 저장소 주소 확인 (현재 연결된)
 `git remote -v`
 
-새 원격 저장소 연결
+**새 원격 저장소 연결**
 `git remote add origin https://github.com/leechanghaevan/jekyllp`
 
 현재 유저 이름 조회/변경
@@ -81,8 +80,12 @@ categories: tools
 새 브랜치에 푸시
 `git push origin branch2`
 
+깃 업데이트
+Windows: `git update-git-for-windows`
+Linux/Unix: `git update`
+
 vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우
-`git config --global credential.helper wincred`
+`git config --global credential.helper wincred --global`
 
 ---
 
