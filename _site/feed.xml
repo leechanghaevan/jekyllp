@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T21:49:53+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Vi shortcut</title><link href="/jekyllp/tools/2020/12/28/vi_shortcut.html" rel="alternate" type="text/html" title="Vi shortcut" /><published>2020-12-28T19:48:53+09:00</published><updated>2020-12-28T19:48:53+09:00</updated><id>/jekyllp/tools/2020/12/28/vi_shortcut</id><content type="html" xml:base="/jekyllp/tools/2020/12/28/vi_shortcut.html">&lt;p&gt;Vi 에디터 사용법&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T21:53:35+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Vi shortcut</title><link href="/jekyllp/tools/2020/12/28/vi_shortcut.html" rel="alternate" type="text/html" title="Vi shortcut" /><published>2020-12-28T19:48:53+09:00</published><updated>2020-12-28T19:48:53+09:00</updated><id>/jekyllp/tools/2020/12/28/vi_shortcut</id><content type="html" xml:base="/jekyllp/tools/2020/12/28/vi_shortcut.html">&lt;p&gt;Vi 에디터 사용법&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; 편집모드 전환&lt;/li&gt;
@@ -224,7 +224,7 @@
 &lt;blockquote&gt;
   &lt;p&gt;사용하지 않는 깃허브 계정 지우기&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제&lt;/code&gt;&lt;br /&gt;
-push 할때 마다 github계정을 다시 물어보는 경우가 있다. 무시 해도 된다.&lt;/p&gt;
+깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시 해도 잘 진행 된다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;현재 유저 이름 조회/변경&lt;br /&gt;
@@ -271,11 +271,9 @@ push 할때 마다 github계정을 다시 물어보는 경우가 있다. 무시 
 Windows: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git update-git-for-windows&lt;/code&gt;&lt;br /&gt;
 Linux/Unix: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git update&lt;/code&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우&lt;br /&gt;
-Window: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global credential.helper wincred --global&lt;/code&gt;&lt;br /&gt;
-Linux: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global credential.helper store --global&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;!-- &gt; vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우
+&gt; Window: `git config --global credential.helper wincred --global`
+&gt; Linux: `git config --global credential.helper store --global` --&gt;
 
 &lt;hr /&gt;
 

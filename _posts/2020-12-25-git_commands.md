@@ -39,7 +39,7 @@ categories: tools
 
 > 사용하지 않는 깃허브 계정 지우기
 > `제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제`
-> push 할때 마다 github계정을 다시 물어보는 경우가 있다. 무시 해도 된다.
+> 깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시 해도 잘 진행 된다.
 
 현재 유저 이름 조회/변경
 `git config user.name`
@@ -85,9 +85,9 @@ categories: tools
 Windows: `git update-git-for-windows`
 Linux/Unix: `git update`
 
-> vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우
+<!-- > vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우
 > Window: `git config --global credential.helper wincred --global`
-> Linux: `git config --global credential.helper store --global`
+> Linux: `git config --global credential.helper store --global` -->
 
 ---
 
