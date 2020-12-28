@@ -5,7 +5,7 @@ date: 2020-12-25 00:56:08 +0900
 categories: tools
 ---
 
-빈 리포지토리 생성 [^git-guide]
+빈 리포지토리 생성 [^git-guide][^git-tutorial]
 `git init`
 
 복제 리포지토리 생성18
@@ -85,4 +85,5 @@ vscode에서 깃허브에 push할 때 마다 크래덴셜을 물어보는 경우
 
 참고
 
-[^git-guide]: https://rogerdudler.github.io/git-guide/index.ko.html
+[^git-guide]: [git - 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)
+[^git-tutorial]: [누구나 쉽게 이해할 수 있는 Git](https://backlog.com/git-tutorial/kr/)
