@@ -28,7 +28,7 @@ categories: tools
 
 #### 클라우드형 환경
 
-- Datalore, Colab 등을 사용하면 설치 없이 온라인으로 파이썬(+주피터노트)을 이용할 수 있다.[^datalore][^colab]
+> - Datalore, Colab 등을 사용하면 설치 없이 온라인으로 파이썬(+주피터노트)을 이용할 수 있다.[^datalore][^colab]
 
 ---
 

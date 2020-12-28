@@ -23,7 +23,7 @@ categories: tools
 직전 커밋과 하나의 커밋으로 합침, 또는 직전 커밋의 설명만 수정
 `git commit --amend -m "새설명"`
 
-> 이미 push 된 커밋을 amend 할 경우 pull 해서 머지해야 하므로 주의하자
+> - 이미 push 된 커밋을 amend 할 경우 pull 해서 머지해야 하므로 주의하자
 
 브랜치를 main으로 바꿀경우 (기본은 master)
 `git branch -M main`
@@ -37,9 +37,9 @@ categories: tools
 원격 저장소 주소 확인 (현재 연결된)
 `git remote -v`
 
-> 사용하지 않는 깃허브 계정 지우기
-> `제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제`
-> 깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시해도 잘 진행 된다.
+> - 사용하지 않는 깃허브 계정 지우기
+>   `제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제`
+> - 깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시해도 잘 진행 된다.
 
 현재 유저 이름 조회/변경
 `git config user.name`

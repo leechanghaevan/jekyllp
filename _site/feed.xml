@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T22:04:20+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T22:32:44+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;아나콘다 사이트에서 설치파일 다운로드&lt;sup id=&quot;fnref:download&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:download&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -25,9 +25,11 @@
 
 &lt;h4 id=&quot;클라우드형-환경&quot;&gt;클라우드형 환경&lt;/h4&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Datalore, Colab 등을 사용하면 설치 없이 온라인으로 파이썬(+주피터노트)을 이용할 수 있다.&lt;sup id=&quot;fnref:datalore&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:datalore&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:colab&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:colab&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Datalore, Colab 등을 사용하면 설치 없이 온라인으로 파이썬(+주피터노트)을 이용할 수 있다.&lt;sup id=&quot;fnref:datalore&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:datalore&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:colab&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:colab&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
@@ -82,8 +84,13 @@
   &lt;/ol&gt;
 &lt;/div&gt;</content><author><name></name></author><category term="tools" /><summary type="html">MkDocs는 마크다운으로 정적사이트를 생성하는 툴이다.</summary></entry><entry><title type="html">Docker via WSL</title><link href="/jekyllp/tools/2020/12/27/docker_via_wsl.html" rel="alternate" type="text/html" title="Docker via WSL" /><published>2020-12-27T17:13:19+09:00</published><updated>2020-12-27T17:13:19+09:00</updated><id>/jekyllp/tools/2020/12/27/docker_via_wsl</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/docker_via_wsl.html">&lt;h4 id=&quot;도커와-wsl을-동시에-설치하는법&quot;&gt;도커와 WSL을 동시에 설치하는법&lt;/h4&gt;
 
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;도커는 리눅스 기반이므로 윈도에선 WSL이 필수이다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;도커는 리눅스 기반이므로 윈도에선 WSL이 필수이다.&lt;/li&gt;
   &lt;li&gt;vscode에서 마이크로소프트 도커 플러그인 검색 &amp;amp; 설치&lt;/li&gt;
   &lt;li&gt;Docker Desktop 설치하라고 뜸&lt;/li&gt;
   &lt;li&gt;설치 후 리붓&lt;/li&gt;
@@ -129,9 +136,15 @@
 &lt;p&gt;VSCODE&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;폰트 축소 확대 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL+-&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL++&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;VSCODE (사용자 정의)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;커밋 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+K&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;폰트 축소 확대 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL+-&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL++&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Vi 에디터&lt;/p&gt;
@@ -209,7 +222,9 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit --amend -m &quot;새설명&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;이미 push 된 커밋을 amend 할 경우 pull 해서 머지해야 하므로 주의하자&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;이미 push 된 커밋을 amend 할 경우 pull 해서 머지해야 하므로 주의하자&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;브랜치를 main으로 바꿀경우 (기본은 master)&lt;br /&gt;
@@ -225,9 +240,11 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote -v&lt;/code&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;사용하지 않는 깃허브 계정 지우기&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제&lt;/code&gt;&lt;br /&gt;
-깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시해도 잘 진행 된다.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;사용하지 않는 깃허브 계정 지우기&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제&lt;/code&gt;&lt;/li&gt;
+    &lt;li&gt;깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시해도 잘 진행 된다.&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;현재 유저 이름 조회/변경&lt;br /&gt;
@@ -296,7 +313,7 @@ It generates a static (blog like) website from md files.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;This is the simple process.&lt;/p&gt;
+&lt;p&gt;This is the simple process.&lt;sup id=&quot;fnref:jekyll-docs&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:jekyll-docs&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:jekyll-gh&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:jekyll-gh&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:jekyll-talk&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:jekyll-talk&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Install Ruby (Linux)&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/code&gt;&lt;/p&gt;
@@ -326,19 +343,31 @@ It generates a static (blog like) website from md files.&lt;/p&gt;
 
 &lt;p&gt;Once github setup is complete, you can find the public URL nearby.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;WSL 리눅스에 설치했을때는 auto regenerating이 안되었었는데 윈도용으로 설치하니 잘 된다.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;깃헙 페이지에선 여전히 지킬을 기본으로 지원하지만, 정적 블로그의 최근 대세는 Gatsby로 넘어간 것 같다.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;깃헙에 커밋할때 gitignore 에서 _site를 빼줘야 정적 페이지가 깃헙페이지에 호스팅이 된다.&lt;/li&gt;
+    &lt;li&gt;WSL 리눅스에 Jekyll 설치했을때는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll s&lt;/code&gt;의 자동 갱신 기능이 잘 안되었었는데 윈도용으로 설치하니 잘 된다. 역시 윈도에선 윈도용!&lt;/li&gt;
+    &lt;li&gt;깃헙 페이지에선 여전히 지킬을 기본으로 지원하지만, 정적 블로그의 최근 대세는 Gatsby로 넘어간 것 같다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;[1. links]&lt;br /&gt;
-&lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;jekyll-docs&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;jekyll-gh&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;jekyll-talk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;참고&lt;/p&gt;
 
-&lt;p&gt;[2. vscode]&lt;br /&gt;
-&lt;img src=&quot;/jekyllp/img/2020-12-24-194035.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files.</summary></entry><entry><title type="html">Why Python</title><link href="/jekyllp/tools/2020/12/24/why_python.html" rel="alternate" type="text/html" title="Why Python" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/why_python</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/why_python.html">&lt;p&gt;왜 파이썬 사용하나?&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:jekyll-docs&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;jekyll-docs&lt;/a&gt; &lt;a href=&quot;#fnref:jekyll-docs&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:jekyll-gh&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;jekyll-gh&lt;/a&gt; &lt;a href=&quot;#fnref:jekyll-gh&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:jekyll-talk&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;jekyll-talk&lt;/a&gt; &lt;a href=&quot;#fnref:jekyll-talk&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="tools" /><summary type="html">I’ve decided to write my development records using a tool called Jekyll. It generates a static (blog like) website from md files.</summary></entry><entry><title type="html">Why Python</title><link href="/jekyllp/tools/2020/12/24/why_python.html" rel="alternate" type="text/html" title="Why Python" /><published>2020-12-24T15:31:34+09:00</published><updated>2020-12-24T15:31:34+09:00</updated><id>/jekyllp/tools/2020/12/24/why_python</id><content type="html" xml:base="/jekyllp/tools/2020/12/24/why_python.html">&lt;p&gt;왜 파이썬 사용하나?&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;문법이 쉽다.&lt;/li&gt;

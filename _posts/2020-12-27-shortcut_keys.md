@@ -13,9 +13,13 @@ categories: tools
 
 VSCODE
 
+- 폰트 축소 확대 `CTRL+-` `CTRL++`
+
+VSCODE (사용자 정의)
+
+- 커밋 `CTL+K`
 - 대소문자 전환 (커스텀) `SHIFT+CTL+C`
 - md 파일에서 클립보드 이미지 붙여넣기 `CTL+ALT+V`
-- 폰트 축소 확대 `CTRL+-` `CTRL++`
 
 Vi 에디터
 
