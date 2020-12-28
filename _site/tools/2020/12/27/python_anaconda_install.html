@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Python &amp; Anaconda install | Evan’s Blog</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Python &amp; Anaconda install" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="윈도우에 아나콘다 (파이썬 + 라이브러리) 설치" />
+<meta property="og:description" content="윈도우에 아나콘다 (파이썬 + 라이브러리) 설치" />
+<link rel="canonical" href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" />
+<meta property="og:url" content="/jekyllp/tools/2020/12/27/python_anaconda_install.html" />
+<meta property="og:site_name" content="Evan’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-27T23:09:31+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Python &amp; Anaconda install" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"/jekyllp/tools/2020/12/27/python_anaconda_install.html","headline":"Python &amp; Anaconda install","dateModified":"2020-12-27T23:09:31+09:00","datePublished":"2020-12-27T23:09:31+09:00","description":"윈도우에 아나콘다 (파이썬 + 라이브러리) 설치","mainEntityOfPage":{"@type":"WebPage","@id":"/jekyllp/tools/2020/12/27/python_anaconda_install.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/jekyllp/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/jekyllp/feed.xml" title="Evan's Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/jekyllp/">Evan&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/jekyllp/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Python &amp; Anaconda install</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-12-27T23:09:31+09:00" itemprop="datePublished">Dec 27, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h4 id="윈도우에-아나콘다-파이썬--라이브러리-설치">윈도우에 아나콘다 (파이썬 + 라이브러리) 설치</h4>
+
+<ul>
+  <li>아나콘다 사이트에서 설치파일 다운로드<sup id="fnref:download" role="doc-noteref"><a href="#fn:download" class="footnote">1</a></sup></li>
+  <li>또는 파워셀을 관리자 권한으로 실행 후 아래 실행<br />
+<code class="language-plaintext highlighter-rouge">choco install anaconda3</code></li>
+  <li>설치할 때 반드시 <strong>환경변수 등록</strong>을 체크해 준다.<sup id="fnref:venv" role="doc-noteref"><a href="#fn:venv" class="footnote">2</a></sup></li>
+</ul>
+
+<h4 id="파이썬-가상-환경-생성-기본-가상환경-이름은-base">파이썬 가상 환경 생성 (기본 가상환경 이름은 base)</h4>
+
+<ul>
+  <li>Anaconda Powershell 을 연다</li>
+  <li>아나콘다 업데이트<br />
+<code class="language-plaintext highlighter-rouge">conda update conda</code></li>
+  <li>가상환경 목록 조회</li>
+  <li><code class="language-plaintext highlighter-rouge">conda env list</code><br />
+가상환경 생성<br />
+<code class="language-plaintext highlighter-rouge">conda create -n [MY_ENV]</code></li>
+  <li>현재 가상환경 활성화<br />
+<code class="language-plaintext highlighter-rouge">conda activate [MY_ENV]</code></li>
+  <li>현재 가상환경 비활성화<br />
+<code class="language-plaintext highlighter-rouge">conda deactivate [MY_ENV]</code></li>
+</ul>
+
+<h4 id="클라우드형-환경">클라우드형 환경</h4>
+
+<ul>
+  <li>Datalore, Colab 등을 사용하면 설치 없이 온라인으로 파이썬(+주피터노트)을 이용할 수 있다.<sup id="fnref:datalore" role="doc-noteref"><a href="#fn:datalore" class="footnote">3</a></sup><sup id="fnref:colab" role="doc-noteref"><a href="#fn:colab" class="footnote">4</a></sup></li>
+</ul>
+
+<hr />
+
+<p>참고</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:download" role="doc-endnote">
+      <p><a href="https://docs.anaconda.com/anaconda/install/">Anaconda Download</a> <a href="#fnref:download" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:venv" role="doc-endnote">
+      <p>환경변수 등록해 주지 않으면 Anaconda Powershell에서만 파이썬이 작동한다. <a href="#fnref:venv" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:datalore" role="doc-endnote">
+      <p><a href="https://www.anaconda.com/datalore_navigator">Datalore</a> <a href="#fnref:datalore" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:colab" role="doc-endnote">
+      <p><a href="https://colab.research.google.com/notebooks/intro.ipynb">Colab</a> <a href="#fnref:colab" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyllp/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Evan&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Evan&#39;s Blog</li><li><a class="u-email" href="mailto:castepo@gmail.com">castepo@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.facebook.com/evanleee"><svg class="svg-icon"><use xlink:href="/jekyllp/assets/minima-social-icons.svg#facebook"></use></svg> <span class="username">evanleee</span></a></li><li><a href="https://github.com/leechanghaevan"><svg class="svg-icon"><use xlink:href="/jekyllp/assets/minima-social-icons.svg#github"></use></svg> <span class="username">leechanghaevan</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Programmer born in 1977. Korea.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
