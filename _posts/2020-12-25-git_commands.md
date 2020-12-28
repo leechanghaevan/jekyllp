@@ -8,7 +8,7 @@ categories: tools
 빈 리포지토리 생성 [^git-guide][^git-tutorial]
 `git init`
 
-복제 리포지토리 생성18
+복제 리포지토리 생성19
 `git clone URL`
 
 스테이징 (업데이트된 파일 모두 추가)
@@ -22,6 +22,9 @@ categories: tools
 
 직전 커밋과 하나의 커밋으로 합침
 `git commit --amend`
+
+직전 커밋 메세지만 수정
+`git commit --amend -m "메세지"`
 
 브랜치를 main으로 바꿀경우 (기본은 master)
 `git branch -M main`
