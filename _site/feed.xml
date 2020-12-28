@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T15:47:07+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -132,6 +133,18 @@
   &lt;li&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
+=======
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-27T16:38:29+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys.html">&lt;p&gt;단축키 모음&lt;/p&gt;
+
+&lt;h4 id=&quot;웹-브라우저&quot;&gt;웹 브라우저&lt;/h4&gt;
+
+&lt;p&gt;주소창 바로가기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+L&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;vscode&quot;&gt;VSCODE&lt;/h4&gt;
+
+&lt;p&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;br /&gt;
+md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager-copy.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager%20copy</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager-copy.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
+>>>>>>> 7e488f6b0c5d1c30b2d55eb2229673f72144fc9e
 
 &lt;h5 id=&quot;설치&quot;&gt;설치&lt;/h5&gt;
 
