@@ -39,7 +39,7 @@ categories: tools
 
 > 사용하지 않는 깃허브 계정 지우기
 > `제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제`
-> 깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시 해도 잘 진행 된다.
+> 깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시해도 잘 진행 된다.
 
 현재 유저 이름 조회/변경
 `git config user.name`

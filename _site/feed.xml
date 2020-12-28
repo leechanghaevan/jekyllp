@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T21:53:35+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Vi shortcut</title><link href="/jekyllp/tools/2020/12/28/vi_shortcut.html" rel="alternate" type="text/html" title="Vi shortcut" /><published>2020-12-28T19:48:53+09:00</published><updated>2020-12-28T19:48:53+09:00</updated><id>/jekyllp/tools/2020/12/28/vi_shortcut</id><content type="html" xml:base="/jekyllp/tools/2020/12/28/vi_shortcut.html">&lt;p&gt;Vi 에디터 사용법&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; 편집모드 전환&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESC&lt;/code&gt; 편집모드 종료&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:q&lt;/code&gt; 종료&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:wq&lt;/code&gt; 저장 후 종료&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:q!&lt;/code&gt; 저장하지 않고 종료&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Vi 에디터 사용법</summary></entry><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/jekyllp/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyllp/" rel="alternate" type="text/html" /><updated>2020-12-28T22:04:20+09:00</updated><id>/jekyllp/feed.xml</id><title type="html">Evan’s Blog</title><subtitle>Programmer born in 1977. Korea.</subtitle><entry><title type="html">Python &amp;amp; Anaconda install</title><link href="/jekyllp/tools/2020/12/27/python_anaconda_install.html" rel="alternate" type="text/html" title="Python &amp;amp; Anaconda install" /><published>2020-12-27T23:09:31+09:00</published><updated>2020-12-27T23:09:31+09:00</updated><id>/jekyllp/tools/2020/12/27/python_anaconda_install</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/python_anaconda_install.html">&lt;h4 id=&quot;윈도우에-아나콘다-파이썬--라이브러리-설치&quot;&gt;윈도우에 아나콘다 (파이썬 + 라이브러리) 설치&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;아나콘다 사이트에서 설치파일 다운로드&lt;sup id=&quot;fnref:download&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:download&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -126,7 +118,7 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd docker run -d -p 80:80 --name docker-tutorial docker101tutorial&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;브라우저에서 확인&lt;br /&gt;
 &lt;a href=&quot;http://127.0.0.1/&quot;&gt;http://127.0.0.1/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">도커와 WSL을 동시에 설치하는법</summary></entry><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys.html">&lt;p&gt;단축키 모음&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">도커와 WSL을 동시에 설치하는법</summary></entry><entry><title type="html">Shortcut keys</title><link href="/jekyllp/tools/2020/12/27/shortcut_keys.html" rel="alternate" type="text/html" title="Shortcut keys" /><published>2020-12-27T13:12:01+09:00</published><updated>2020-12-27T13:12:01+09:00</updated><id>/jekyllp/tools/2020/12/27/shortcut_keys</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/shortcut_keys.html">&lt;h4 id=&quot;단축키-모음&quot;&gt;단축키 모음&lt;/h4&gt;
 
 &lt;p&gt;웹 브라우저&lt;/p&gt;
 
@@ -139,6 +131,17 @@
 &lt;ul&gt;
   &lt;li&gt;대소문자 전환 (커스텀) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT+CTL+C&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;md 파일에서 클립보드 이미지 붙여넣기 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTL+ALT+V&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;폰트 축소 확대 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL+-&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL++&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vi 에디터&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; 편집모드 전환&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESC&lt;/code&gt; 편집모드 종료&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:q&lt;/code&gt; 종료&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:wq&lt;/code&gt; 저장 후 종료&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:q!&lt;/code&gt; 저장하지 않고 종료&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">단축키 모음</summary></entry><entry><title type="html">Chocolatey package manager</title><link href="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html" rel="alternate" type="text/html" title="Chocolatey package manager" /><published>2020-12-27T05:29:12+09:00</published><updated>2020-12-27T05:29:12+09:00</updated><id>/jekyllp/tools/2020/12/27/chocolatey_package_manager</id><content type="html" xml:base="/jekyllp/tools/2020/12/27/chocolatey_package_manager.html">&lt;p&gt;&lt;strong&gt;Choco&lt;/strong&gt;는 윈도용 패키지 매니저. 리눅스의 apt, yum 같은 역할&lt;/p&gt;
 
 &lt;h5 id=&quot;설치&quot;&gt;설치&lt;/h5&gt;
@@ -224,7 +227,7 @@
 &lt;blockquote&gt;
   &lt;p&gt;사용하지 않는 깃허브 계정 지우기&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제어판 - 사용자계정 - Windows자격증명 - github 관련 삭제&lt;/code&gt;&lt;br /&gt;
-깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시 해도 잘 진행 된다.&lt;/p&gt;
+깃헙에 push 할때 마다 Logon failed 떠서 github계정을 다시 물어보는 경우가 있다. 무시해도 잘 진행 된다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;현재 유저 이름 조회/변경&lt;br /&gt;
