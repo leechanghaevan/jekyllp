@@ -56,7 +56,7 @@ categories: tools
 풀 (업데이트)
 `git pull`
 
-현재 브랜체 다른 브랜치 병합
+현재 브랜치에 다른 브랜치 병합
 `git merge [MY_BRNACH]`
 
 깃 히스토리 보기 (종료는 q)
