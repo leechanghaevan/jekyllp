@@ -8,7 +8,7 @@ categories: tools
 빈 리포지토리 생성 [^git-guide][^git-tutorial]
 `git init`
 
-복제 리포지토리 생성20
+복제 리포지토리 생성21
 `git clone URL`
 
 스테이징 (업데이트된 파일 모두 추가)
