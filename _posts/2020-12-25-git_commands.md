@@ -65,7 +65,7 @@ categories: tools
 롤백 (커밋 취소)
 `git reset --soft`
 
-롤백 (변경사항 삭제)
+롤백 (변경 사항 삭제)
 `git reset --hard`
 
 현재 브랜치 확인
